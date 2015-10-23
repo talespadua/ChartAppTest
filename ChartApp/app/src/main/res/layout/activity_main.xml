@@ -10,7 +10,8 @@
         android:layout_width="500px"
         android:layout_height="wrap_content"
         android:text="Abrir"
-        android:id="@+id/entraGráfico"
+        android:id="@+id/go_to_main"
+        android:onClick="goToMain"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
