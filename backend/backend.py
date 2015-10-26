@@ -25,11 +25,11 @@ def main():
 
     @route('/update_balance', method='POST')
     def update_balance():
-        jan = request.forms.get('val1')
-        fev = request.forms.get('val2')
-        mar = request.forms.get('val3')
-        abr = request.forms.get('val4')
-        mai = request.forms.get('val5')
+        val1 = request.forms.get('val1')
+        val2 = request.forms.get('val2')
+        val3 = request.forms.get('val3')
+        val4 = request.forms.get('val4')
+        val5 = request.forms.get('val5')
         balance.set_new_balance(val1, val2, val3, val4, val5)
         return balance.__dict__
 
