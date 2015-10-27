@@ -6,6 +6,8 @@
 /build
 /captures
 
+*.zip
+
 # Created by https://www.gitignore.io/api/android
 
 ### Android ###
